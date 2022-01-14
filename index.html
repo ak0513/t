@@ -15,26 +15,49 @@
 
 	<div style="visibility: hidden;">visibility: hidden; 우리는 탄소 발자국을 줄이기 위해 <strong>끊임없이 혁신하고 있습니다.</strong> 현재 우리의 <span>매장, 사무실, 데이터 센터, 사업 운영</span> 활동은 이미 탄소 중립을 실현했습니다.<br>그리고 2030년까지 우리의 제품들, 그리고 이 제품들을 사용하는 데 따르는 탄소 발자국 역시 탄소 중립을 달성하는 것이 목표입니다.</div>
 <br><br>
-	<div role="menubar">1메뉴바1</div><br>
-	<div role="menu">2메뉴2</div><br>
-	<div role="menuitem">3메뉴아이템3</div><br>
-	<div aria-haspopup="true">4해즈팝업4</div><br>
-	<div role="region">5리즌5</div><br>
-	<div role="group">6그룹6</div><br>
+	<div role="menubar">1메뉴바1</div>
+	<div aria-hidden="true">1메뉴바1</div><br>
+	<div role="menu">2메뉴2</div>
+	<div aria-hidden="true">메뉴2</div><br>
+	<div role="menuitem">3메뉴아이템3</div>
+	<div aria-hidden="true">3메뉴아이템3 메뉴항목</div><br>
+	<div aria-haspopup="true">4해즈팝업4</div>
+	<div aria-hidden="true"4해즈팝업4</div><br>
+	<div role="region">5리즌5</div>
+	<div aria-hidden="true">5리즌5</div><br>
+	<div role="group">6그룹6</div>
+	<div aria-hidden="true">6그룹6</div><br>
 	<div role=""></div><br>
 	<div role=""></div><br>
 	<ul role="none">
 		<li>aaa</li>
 		<li role="none">22</li>
-	</ul><br>
+	</ul>
+	<br>
+	<div aria-hidden="true">
+		aaa<br>
+	22</div>
 	<ul>
 		<li>bbb</li>
 		<li>33</li>
-	</ul><br>
+	</ul>
+	<div aria-hidden="true">
+		구분점 목록시작<br>
+	bbb<br>
+	구분점<br>
+	33 목록끝
+	</div>
+	<br>
 	<ol>
 		<li>ccc</li>
 		<li>44</li>
-	</ol><br>
+	</ol>
+	<div aria-hidden="true">
+	1 목록시작<br>
+	ccc<br>
+	2<br>
+	44 목록끝
+	</div>
 	
 	<h2>aria-current</h2>
 	<a href="" aria-current="page">a page</a><br>
