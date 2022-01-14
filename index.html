@@ -32,19 +32,29 @@
 				<a href="#" id="mentbtn1" aria-controls="menu1" aria-expanded="false">메뉴명1</a>
 				<div id="menu1" aria-labelledby="mentbtn1">
 					<ul role="menu">
-						<li><a href="#" role="menuitem">메뉴명1 하위1</a></li>
-						<li><a href="#" role="menuitem">메뉴명1 하위2</a></li>
-						<li><a href="#" role="menuitem">메뉴명1 하위3</a></li>
+						<li><a href="#" role="menuitem">하위1-1</a></li>
+						<li><a href="#" role="menuitem">하위1-2</a></li>
+						<li><a href="#" role="menuitem">하위1-3</a></li>
 					</ul>
 				</div>
 			</li>
-			<li role="menuitem">
+			<li role="menuitem" aria-haspopup="true">
 				<a href="#" id="mentbtn2" aria-controls="menu2" aria-expanded="false">메뉴명2</a>
 				<div id="menu2" aria-labelledby="mentbtn2">
 					<ul role="menu">
-						<li><a href="#" role="menuitem">메뉴명2 하위1</a></li>
-						<li><a href="#" role="menuitem">메뉴명2 하위2</a></li>
-						<li><a href="#" role="menuitem">메뉴명2 하위3</a></li>
+						<li><a href="#" role="menuitem">하위2-1</a></li>
+						<li><a href="#" role="menuitem">하위2-2</a></li>
+						<li><a href="#" role="menuitem">하위2-3</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="#" id="mentbtn3" role="menuitem" aria-controls="menu3" aria-expanded="false" aria-haspopup="true">메뉴명2</a>
+				<div id="menu3" aria-labelledby="mentbtn3">
+					<ul role="menu">
+						<li><a href="#" role="menuitem">하위3-1</a></li>
+						<li><a href="#" role="menuitem">하위3-2</a></li>
+						<li><a href="#" role="menuitem">하위3-3</a></li>
 					</ul>
 				</div>
 			</li>
@@ -52,6 +62,7 @@
 	</nav>
 	<br>
 	<nav>네브</nav>
+
 	<div role="menubar">1메뉴바1</div>
 	<div aria-hidden="true">1메뉴바1</div><br>
 	<div role="menu">2메뉴2</div>
